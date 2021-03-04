@@ -7,14 +7,16 @@ main()
     scanf("%f %f %f",&a,&b,&c);                     //entered values are asigned to the coefficients(a,b,c)
     D=pow(b,2)-4*a*c;                               //discriminant(D) is evaluated
         /////////if-else conditional statement is started/////////
-    if(D>=0){   /*for real roots*/
+    if(D>=0)   /*for real roots*/
+    {
         printf("Roots are real!\n");
             //roots are evaluated
         x1=(-b+sqrt(D))/2*a;
         x2=(-b-sqrt(D))/2*a;
         printf(" One root is %.2f \n another root is %.2f",x1,x2);    //roots a returned
     }
-    else{       /*For imaginary roots*/
+    else       /*For imaginary roots*/
+    {
         printf("Roots are imaginary!\n");
             //roots are evaluated
         ip=sqrt(-D)/2*a;

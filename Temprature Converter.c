@@ -15,7 +15,7 @@ main()
         printf(" In fehrenheit scale, this temprature = %f",f);
     }
             //For option 2
-    else{
+    else
         if(option == 2){
             float c,f;
             printf("Enter temprature in degree fehrenheit: ");
@@ -23,9 +23,8 @@ main()
             c=(f-32)*5/9;
             printf(" In celcius scale, this temprature = %f",c);
         }
-            //For wrong options
+                //For wrong options
         else{
             printf("\t Enter a valid option!");
         }
-    }
 }
